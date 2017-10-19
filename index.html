@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>TicTacToe</title>
+    <link href="css/main.css" rel="stylesheet" >
+</head>
+<body>
+    <div class="header">
+        <div class="layout-container">
+            <h1>TicTacToe</h1>
+            <button class="big-button" onclick="init()" >New game</button>
+        </div>
+    </div>
+    <div class="content">
+        <div class="layout-container">
+            <div class="overlay" id="overlayid" onclick="init()"><p></p></div>
+            <span class="whos-turn" id="whosTurn"></span>
+            <form name="game-form">
+                <div class="line">
+                    <button type="button" class="game-cell" ></button>
+                    <button type="button" class="game-cell" ></button>
+                    <button type="button" class="game-cell" ></button>
+                </div>
+                <div class="line">
+                    <button type="button" class="game-cell" ></button>
+                    <button type="button" class="game-cell" ></button>
+                    <button type="button" class="game-cell" ></button>
+                </div>
+                <div class="line">
+                    <button type="button" class="game-cell" ></button>
+                    <button type="button" class="game-cell" ></button>
+                    <button type="button" class="game-cell" ></button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="layout-container">
+            <h2>2015</h2>
+        </div>
+    </div>
+</body>
+<script src="js/main.js" ></script>
+</html>
